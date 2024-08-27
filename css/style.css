@@ -24,8 +24,8 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    max-width: 30%;
-    height: 30%;
+    width: 300px;
+    height: auto;
 }
 
 img {
