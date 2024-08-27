@@ -1,8 +1,11 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 228);
 }
 
-
+.title {
+    width: 200px;
+    height: auto;
+}
 
 .container {
     display: flex;
@@ -44,8 +47,8 @@ body {
     justify-content: start;
     max-width: 450px;
     height: auto;
-
 }
+
 
 img {
     max-width: 100%;
