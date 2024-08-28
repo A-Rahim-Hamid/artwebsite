@@ -7,6 +7,15 @@ body {
     height: auto;
 }
 
+.writ_txt {
+    width: 200px;
+    height: auto;
+}
+
+.writ_txt:hover {
+    opacity: 0.5;
+}
+
 .container {
     display: flex;
     flex: 1;
