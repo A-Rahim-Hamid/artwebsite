@@ -117,3 +117,19 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#boxbg {
+    position: fixed;
+    z-index: 150;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 150, 150, .6);
+    backdrop-filter: blur(3px);
+    display: none;
+}
+
+#boxbg.active {
+    display: grid;
+    place-items: center;
+}
